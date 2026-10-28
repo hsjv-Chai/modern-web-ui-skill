@@ -27,6 +27,12 @@ $skill-installer https://github.com/hsjv-Chai/modern-web-ui-skill/tree/main/skil
 
 安装后，在下一轮对话中查看是否可用；如果没有出现，重启 Codex。
 
+如果安装时遇到 Python HTTPS 证书错误，可让安装器改用 Git 下载：
+
+```text
+$skill-installer 请从 hsjv-Chai/modern-web-ui-skill 安装 skills/modern-web-ui，使用 Git 方式（--method git）。
+```
+
 ### 手动安装（macOS / Linux）
 
 需要 Git。在终端执行以下命令，将整个 skill 文件夹安装到个人技能目录；目标已存在时会停止，避免覆盖已有版本。
